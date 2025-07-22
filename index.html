@@ -239,7 +239,7 @@
 
     </div>
 <script>
-    
+
     const apiUrl = "https://api.rootnet.in/covid19-in/stats/latest";
 
     fetch(apiUrl)
@@ -259,7 +259,7 @@
             numbers[2].textContent = deaths.toLocaleString();    // Deaths
         })
         .catch(error => {
-            console.error("Error fetching COVID data:", error);
+            console.error("Error fetching COVID:", error);
         });
 </script>
 
